@@ -1,4 +1,4 @@
-
+import Brand from './brand/Brand.jsx'
 
 const NavBar = () => {
     return(
@@ -12,7 +12,7 @@ const NavBar = () => {
                             <span className="navbar-toggler-icon  "></span>
                             </button>
                             <div className="navbar-brand ms-lg-5 mx-auto mx-lg-0">
-                                <h2>aca va el logo</h2>
+                                <Brand />
                             </div>
                             <div className="collapse navbar-collapse w-50 d-lg-flex justify-content-lg-center" id="navbarTogglerDemo03">
                                 <ul className="navbar-nav  ">
