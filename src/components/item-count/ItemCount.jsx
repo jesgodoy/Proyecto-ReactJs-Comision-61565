@@ -11,7 +11,7 @@ const ItemCount =({stock, initial, onAdd})=>{
 
     return(
         <div className='container'>
-            <div className='container text-center d-flex'>
+            <div className='d-flex justify-content-center text-center'>
                 <button type="button" className="btn btn-secondary" onClick={handleSubstract}>-</button>
                 <h4 className='p-1 mx-2'>{quantity}</h4>
                 <button type="button" className="btn btn-secondary"  onClick={handleAdd}>+</button>
