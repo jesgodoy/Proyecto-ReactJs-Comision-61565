@@ -19,18 +19,18 @@ header .text{
     color: rgb(79, 245, 245);
 }
 
-.animated-border {
+.animated-border{
     position: relative;
     display: inline-block;
-    padding: 5px 10px; /* Ajusta el relleno según tus necesidades */
-    text-decoration: none; /* Quita la decoración del enlace */
-    color: transparent; /* Hace que el texto sea transparente */
+    padding: 5px 10px; 
+    text-decoration: none;
+    color: transparent; 
   
-    /* Borde redondeado */
+    
     border: 2px solid transparent;
-    border-radius: 10px; /* Ajusta el radio según tus necesidades */
+    border-radius: 10px; 
   
-    /* Animación */
+    
     overflow: hidden;
   }
   
@@ -39,14 +39,14 @@ header .text{
     content: '';
     position: absolute;
     width: 0;
-    height: 5px; /* Grosor del borde, ajusta según tus necesidades */
+    height: 5px; 
     bottom: 0;
     transition: width 0.3s;
   }
   
   .animated-border::before {
     left: 0;
-    background-color: red; /* Primer color del borde */
+    background-color: red; 
   }
   
   .animated-border::after {

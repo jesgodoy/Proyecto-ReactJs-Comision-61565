@@ -20,10 +20,6 @@ const ItemDetail = ({id, nombre, precio, img, categoria, detalles, stock})=>{
                     </div>
                 </section>
             </div>
-            
-            <footer className='m-5'>
-             
-            </footer>
         </article>
     )
 }
